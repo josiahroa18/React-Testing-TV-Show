@@ -26,7 +26,7 @@ const mockEpisode = [
     }
 ]
 
-test('Initial component render', () => {
+test('Initial component render and rerender with props', () => {
     const { rerender, queryAllByTestId } = render(
         <Episodes episodes={[]}/>
     )
